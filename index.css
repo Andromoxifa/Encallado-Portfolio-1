@@ -8,7 +8,8 @@ h1, h2 {
 
 img{
 	height: 250px;
-	width: 300px;
+	width: 250px;
+	border-radius: 25% 50%;
 }
 
 #landing{
@@ -42,4 +43,18 @@ h2{
 	width: 75%;
 	margin: 20px;
 	padding: 25px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+@media only screen and(max-width: 480px){
+	.tools > h2 {
+		font-size: 25px;
+	}
+}
+
+li {
+	color:whitesmoke;
 }
